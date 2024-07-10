@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.#Хранит путь до нашей папки с проектом, в даьлнейшем будем использовать эту переменную и добавлять к ней кусок пути до файла
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -20,18 +20,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-_^*e@r*%)$i8j@ensn-)i)fj5x9^9j^$i792d5ictvl5ny4tf)'
+SECRET_KEY = 'django-insecure-1z4trpw5h0+v%*)1-92v005e)z-+@3oeh@)ya^r30c)$9e(@(l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-#когда проект выгружен на продакшен значение должно быть фалс
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition
 
-INSTALLED_APPS = [#предустановленые приложения
+INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
